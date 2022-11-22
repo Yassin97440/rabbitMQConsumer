@@ -3,6 +3,10 @@ package com.compufirst.rabbitMQ.consumer.model;
 public class Message {
 
 	private int id;
+	private String name;
+	private String email;
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -15,6 +19,11 @@ public class Message {
 	public void setName(String name) {
 		this.name = name;
 	}
-	private String name;
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	
 }
